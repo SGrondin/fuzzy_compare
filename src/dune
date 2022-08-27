@@ -1,0 +1,15 @@
+(library
+  (name fuzzy_compare)
+  (public_name fuzzy_compare)
+  (inline_tests)
+  (libraries
+    core_kernel
+  )
+  (preprocess (pps
+    ppx_jane
+  ))
+)
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
