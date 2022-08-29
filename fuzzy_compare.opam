@@ -7,7 +7,7 @@ synopsis: "Fastest bounded Levenshtein comparator over generic structures"
 description: """
 This library does not calculate the edit distance.
 
-Rather, it provides extremely efficient automata that answer whether 2 values are within a predetermined number of edits of one another.
+Rather, it provides extremely efficient automata that answer whether 2 values are within a predetermined number of edits of one another. Edits are: additions, deletions, replacements.
 
 Once generated, an automaton can be reused to compare any 2 values in around 2-8 µs.
 """

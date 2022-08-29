@@ -8,7 +8,7 @@ module type Intf = sig
   (** The type being compared *)
   type t
 
-  (** Type of the individual parts *)
+  (** Type of the individual parts (chars in a string, etc.) *)
   type cmp [@@deriving equal]
 
   (** Type optimized for quick access *)
