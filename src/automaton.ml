@@ -1,4 +1,4 @@
-open! Core_kernel
+open! Core
 
 (* https://fulmicoton.com/posts/levenshtein/ *)
 (* https://julesjacobs.com/2015/06/17/disqus-levenshtein-simple-and-fast.html *)

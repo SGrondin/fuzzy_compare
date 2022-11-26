@@ -2,7 +2,7 @@
   (name tests)
   (inline_tests)
   (libraries
-    core_kernel
+    core
     fuzzy_compare
     uuseg.string
     uunf.string

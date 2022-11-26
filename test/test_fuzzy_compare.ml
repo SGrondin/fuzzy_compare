@@ -1,4 +1,4 @@
-open! Core_kernel
+open! Core
 open Fuzzy_compare__
 
 let%expect_test "enumerate_chi_values" =
