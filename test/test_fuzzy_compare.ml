@@ -21,7 +21,7 @@ let%expect_test "normalize" =
   [%expect {| ((min_offset 0) (states (((offset 0) (d 2))))) |}];
   test
     (StateSet.of_list
-       [ { offset = 0; d = 0 }; { offset = 3; d = 0 }; { offset = 2; d = 0 }; { offset = 1; d = 0 } ]);
+       [ { offset = 0; d = 0 }; { offset = 3; d = 0 }; { offset = 2; d = 0 }; { offset = 1; d = 0 } ] );
   [%expect
     {|
        ((min_offset 0)
