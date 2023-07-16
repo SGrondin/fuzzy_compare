@@ -3,7 +3,7 @@ fuzzy_compare
 
 Extremely fast Levenshtein comparator.
 
-Checks whether 2 values are within a predetermined number of edits of one another.
+Checks whether 2 values are within a predetermined number of edits of one another. Edits are single character additions, deletions, and replacements.
 
 - most comparisons take under 5 µs, depending on the length of the values
 - a Functor is provided to enable comparisons across any arbitrary types
