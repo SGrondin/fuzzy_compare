@@ -24,6 +24,12 @@ let b1 = Fuzzy_compare.String.eval within3 "kitten" "kitsch" in
 let b2 = Fuzzy_compare.String.eval within3 "kittens" "kitsch" in
 ```
 
+### Install
+
+```
+opam install fuzzy_compare
+```
+
 ### Unicode / arbitrary types
 
 This example demonstrates how to compare unicode string as well as how to compare your own types.
